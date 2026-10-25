@@ -1,10 +1,12 @@
 himmbuild[
   himmbuild.user[github.com/HimmBuild]
-  himmbuild.disallow[SKIP]
   himmbuild.allow[/]
+  himmbuild.allow[/himmbuild]
   himmbuild.repo_LOAD[github.com/himm774/test]
   himmbuild.repo_BRANCH[main]
   himmbuild.if[branch_IFBLOCK:mistakenly.choosed.invalid.branch]then:
     [payoff:[invalid.branch]]
     himmbuild.repo_BRANCH[main]{slen:no.invalid.branch}
+  himmbuild.EditFilesIn[/]
+  himmbuild.CreateFilesIn[/himmbuild/output]
 ]
