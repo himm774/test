@@ -1,1 +1,2 @@
+himmbuild.RequestClosed: This request is closed because HimmBuild actually did it. Original message:
 a bash program that prints Hello World!
