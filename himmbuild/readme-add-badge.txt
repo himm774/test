@@ -1,3 +1,4 @@
+himmbuild.RequestClosed: This request is closed because HimmBuild actually did it. Original message:
 add a shields.io badge
 label: hello world
 message: test badge
